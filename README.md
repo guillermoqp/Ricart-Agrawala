@@ -10,12 +10,15 @@ ALGORITMO DISTRIBUIDO DE EXCLUSION MUTUA: Ricart - Agrawala
 Aplicación del algoritmo de exclusión mutua de Ricart - Agrawala .
 
 Miembros del grupo :
-				Garcia Valle Juniors
-				Quintanilla Paredes Guillermo
-				Santillan Plaza Jessica
-				Vela Fernandez Jesus
-		SISTEMAS OPERATIVOS 2
-		DOCENTE: Ing. Anthony Gomez Morales
+Garcia Valle Juniors
+Quintanilla Paredes Guillermo
+Santillan Plaza Jessica
+Vela Fernandez Jesus
+
+SISTEMAS OPERATIVOS 2 
+DOCENTE: Ing. Anthony Gomez Morales
+
+Escuela de Informatica - Fac. Ciencias Fisicas y Matematica - Universidad Nacional de Trujillo
 
 Para probar nuestra aplicación del algoritmo de exclusión mutua Distribuido de Ricart - Agrawala tendrás que poner  Driver.java y RicartAgrawala.java en el directorio que se utilizará. 
 
@@ -50,7 +53,7 @@ Archivo Para verificar la competencia examinar el resultado en la ventana de ter
 
 ================= REVISAR LA PARTE DEO CODIGO EN : Driver.java ====================
 
-if(nodeNum == 1)// IP DEL NODO 1
+			if(nodeNum == 1)// IP DEL NODO 1
 			{
 				//Clear the file
 				BufferedWriter clearWrite = new BufferedWriter(new FileWriter("CriticalSectionOutput.txt"));
